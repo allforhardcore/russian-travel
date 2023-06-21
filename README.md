@@ -6,6 +6,9 @@
 
 Сайт о путешествии по России. Работа сделана на html и css и предполагает отображение на разных устройствах. Адаптивная верстка была выполнена с помощью свойств flexbox grid и медиазапросов.
 
+Ссылка на github pages:
+https://allforhardcore.github.io/russian-travel/index.html
+
 **Автор**
 
 Mejlumian
