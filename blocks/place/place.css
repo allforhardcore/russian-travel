@@ -1,0 +1,30 @@
+.place {
+  width: 100%;
+  margin: 0;
+  gap: 48px 40px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: fit-content(460px) 1fr;
+  justify-items: stretch;
+  align-items: start;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(180px, 340px) 1fr;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .place {
+    gap: 32px;
+    grid-template-columns: minmax(min-content, 100%);
+  }
+}
+

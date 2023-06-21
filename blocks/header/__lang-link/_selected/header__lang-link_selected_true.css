@@ -1,0 +1,4 @@
+.header__lang-link_selected_true {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
