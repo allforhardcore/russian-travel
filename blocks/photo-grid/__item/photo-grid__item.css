@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 620px) {
   .photo-grid__item {
-    min-width: 180px
+    min-width: 180px;
   }
 }
 
