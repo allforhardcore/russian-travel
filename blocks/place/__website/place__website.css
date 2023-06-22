@@ -2,3 +2,10 @@
   align-self: self-end;
   max-width: 100%;
 }
+
+@media screen and (max-width: 632px) {
+  .place__website {
+    padding: 0 16px;
+  }
+
+}

@@ -4,13 +4,16 @@
   max-width: 984px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .intro {
+    padding-top: 88px;
     max-width: calc(100vw - 96px);
   }
 }
 
-@media screen and (min-width: 633px) and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .intro {
     padding-top: 88px;
     max-width: calc(100vw - 48px);

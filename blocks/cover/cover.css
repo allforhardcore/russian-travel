@@ -1,5 +1,4 @@
 .cover {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,6 +6,10 @@
   height: 740px;
   max-width: 1184px;
   width: calc(100vw - 96px);
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
